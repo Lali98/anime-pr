@@ -1,13 +1,17 @@
 import Header from './Header';
-import Main from './Main';
+import Animes from './Animes';
 import Footer from './Footer';
 
 function App() {
     return (
         <div>
-            <Header></Header>
-            <Main></Main>
-            <Footer></Footer>
+            <Header />
+            <div className='container'>
+                <div className="row">
+                    <Animes />
+                </div>
+            </div>
+            <Footer />
         </div>
     );
 }
