@@ -1,7 +1,10 @@
 function Header() {
     return (
-        <p>Header</p>
-        // TODO: Megcsinálni a Header component
+        <nav className="navbar navbar-expand-lg bg-info sticky-top">
+            <div className="container-fluid">
+                <a className="navbar-brand" href="/">2022 öszi anime szezon</a>
+            </div>
+        </nav>
     )
 }
 
